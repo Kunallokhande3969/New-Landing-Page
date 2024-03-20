@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+ padding:0;
+ box-sizing:border-box;
+ font-family: Arial, Helvetica, sans-serif
+ }
+  
+ html,body{
+ width: 100%;
+ height : 100%;
+ }
+ #main{
+     height : 100%;
+     width : 100%;
+     display: flex;
+ 
+ }
+ #left{
+     height  : 100%;
+     width: 50%;
+ 
+     position: relative;
+ 
+ }
+ #left h1{
+     position: absolute;
+     top : 30%;
+     left: 12%;
+     font-size: 60px;
+     line-height: .9;
+     font-weight: 100;
+    
+ }
+ #left button{
+     position: absolute;
+     top : 60%;
+     left: 13%;
+     height : 27px;
+     width: 90px;
+     border-radius: 100px;
+     border: 1px solid black;
+     font-size: 13px;
+ }
+ #left h5{
+     position: absolute;
+     bottom: 25%;
+     left: 13%;
+     font-size: 18px;
+ 
+ }
+ #left p{
+    
+     position: absolute;
+     bottom: 7%;
+     left: 13%;
+ }
+ #right{
+     position: relative;
+     height  : 100%;
+     width: 50%;
+ }
+ #k{ width: 40%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ #right img{
+     position: absolute;
+     width: 40%;
+     top : 35.2%;
+     left : 13%;
+ 
+ }
+ #k{
+     position: absolute;
+     top : 30%;
+     left : 13%;
+ }
+ #right h3{
+      position: absolute;
+      transform: rotate(-90deg);
+      top : 78%;
+      left : .2%;
+ 
+ }
+ #circle{
+     height : 80px;
+     width : 80px;
+     background-color: black;
+     border-radius: 50%;
+     position: absolute;
+     top : 46%;
+     left : 48%;
+     position: relative;
+   
+ }
+ #circle p{
+     color: white;
+     font-weight: 100;
+     padding-top : 29px;
+     padding-left: 10px;
+     border: none;
+     font-size: 13px;
+ 
+ }
